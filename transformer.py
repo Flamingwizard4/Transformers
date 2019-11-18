@@ -1,3 +1,12 @@
+#Tutorial with code can be found here: http://nlp.seas.harvard.edu/2018/04/03/attention.html#background
+
+###TODO:
+#add training code
+#debugging
+#test code
+#upgrade to Transformer XL
+###
+
 import numpy as np
 import torch
 import torch.nn as nn
