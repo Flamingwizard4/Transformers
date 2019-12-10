@@ -1,0 +1,8 @@
+#TODO auto issue creator, format:
+
+/**
+@todo Title
+#@body Body
+*/
+todo:
+  keyword: "@makeAnIssue"
