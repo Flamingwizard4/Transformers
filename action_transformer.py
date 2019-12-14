@@ -217,7 +217,7 @@ class Tail(nn.Module):
 
 # base is ResNet
 # Tail is the main transformer network
-class Semi_Transformer(nn.Module):
+class VATransformer(nn.Module):
     def __init__(self, num_classes, seq_len):
         super(Semi_Transformer, self).__init__()
         resnet50 = torchvision.models.resnet50(pretrained=True)
@@ -233,4 +233,4 @@ class Semi_Transformer(nn.Module):
         return self.tail(x, b , t )
 
 
-test_model = Semi_Transformer(num_classes=625 , seq_len = max_seq_len)
+test_model = VATransformer(num_classes=625 , seq_len = max_seq_len)
